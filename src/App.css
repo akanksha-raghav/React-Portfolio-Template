@@ -1,0 +1,186 @@
+html,
+body,
+section,
+div,
+h1 {
+  scroll-behavior: smooth;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+
+.page {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.particles-js {
+  background-color: white;
+  position: fixed;
+  left: 0;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+:hover {
+  color: rgb(75, 68, 68);
+}
+
+.iconBox {
+  justify-content: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.iconBox :hover {
+  color: grey;
+  transition: color 300ms linear;
+}
+
+header {
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(166, 165, 231);
+  font-size: 18px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2px;
+  z-index: 99;
+  transition: background-color 0.5s ease-out;
+}
+
+header ul a {
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(134, 157, 192);
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.5s ease-out;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:grey;
+}
+
+section {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 60px 0;
+  height: 100%;
+  position: relative;
+}
+
+.home {
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(151, 104, 104);
+  padding: 0;
+  left: 0;
+  right: 0;
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.home h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-shadow: 0 15px 20px #808080;
+}
+
+.home h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 10px 0 50px;
+  display: inline-block;
+  letter-spacing: 2;
+}
+
+.section-title {
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 30px;
+  text-align: center;
+  color: rgb(61, 55, 55);
+}
+
+.section-title h2 {
+  font-family: "Josefin Sans", sans-serif;
+  display: inline-block;
+  font-size: 28px;
+  border-bottom: 1px solid;
+  text-transform: uppercase;
+}
+
+.section-info {
+  font-family: "Josefin Sans", sans-serif;
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0;
+  color: #3d3434;
+  text-align: center;
+}
+
+.section-info p {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+.section-info .mybtn {
+  font-family: "Josefin Sans", sans-serif;
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #ffffff40;
+  border: 1px solid #ffffff80;
+  border-radius: 50px;
+  color: rgb(175, 161, 161);
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 35px;
+  z-index: 999;
+}
+
+.mynav {
+  background-color: rgb(232, 236, 236);
+}
+
+.footer {
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms linear 200ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 200ms linear;
+}
+img.tech-icon{
+  height: 50%;
+  width: 50%;
+
+}
