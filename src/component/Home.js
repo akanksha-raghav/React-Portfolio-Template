@@ -4,20 +4,13 @@ import Col from 'react-bootstrap/Col';
 import SkillTable from './SkillTable';
 import Container from 'react-bootstrap/Container';
 import { Row } from 'react-bootstrap';
-import Image from 'react-bootstrap/Image'
+import Image from 'react-bootstrap/Image';
 import { faCentercode } from '@fortawesome/free-brands-svg-icons';
 function Home() {
     return (
         <div className="page">
             <section className="home">
                 <div>
-                    <Container>
-                        <Row>
-                        <Col xs={6} md={4}>
-                            <Image src="" roundedCircle />
-                        </Col>
-                        </Row>
-                    </Container>
                     <h1>Akanksha Raghav</h1>
                     <h3>| Full Stack Web Developer &#128513;|| VUI Developer || Python &#128149; |</h3>
                 </div>
@@ -36,14 +29,14 @@ function Home() {
             <section>
                 <Container>
                     <Row xs={1} md={2}>
-                    <Col>
+                    <Col sm={6}>
                     <h2>My Skills</h2>
                 <br />
                 <SkillTable /></Col>
-                <Col>
+                <Col sm={6}>
                     <h2>Tech's I am Familiar with</h2>
                     <div class="row pt-5">
-                    <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    <div class="col-lg-3 col-md-4 mt-4 mt-md-0 col-sm-6">
                         <div class="icon-box">
                             <img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/600px-Python-logo-notext.svg.png"></img>
                             <h3>Python</h3>
