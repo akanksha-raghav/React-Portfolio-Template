@@ -5,12 +5,18 @@ import SkillTable from './SkillTable';
 import Container from 'react-bootstrap/Container';
 import { Row } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
-import { faCentercode } from '@fortawesome/free-brands-svg-icons';
+import me from '../img/me.png';
 function Home() {
     return (
         <div className="page">
             <section className="home">
                 <div>
+                <Image
+                img src= {me} alt="Akanksha Raghav"
+                height={400}
+                width={400}
+                style={{ alignSelf: 'center' }}
+                />
                     <h1>Akanksha Raghav</h1>
                     <h3>| Full Stack Web Developer &#128513;|| VUI Developer || Python &#128149; |</h3>
                 </div>
