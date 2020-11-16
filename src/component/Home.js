@@ -12,11 +12,12 @@ function Home() {
             <section className="home">
                 <div>
                 <Image
-                img src= {me} alt="Akanksha Raghav"
+                img className="rounded-circle" src= {me} alt="Akanksha Raghav"
                 height={400}
                 width={400}
-                style={{ alignSelf: 'center' }}
+                style={{ alignSelf:'center', border: '2px solid #7694B9'}}
                 />
+                <p></p>
                     <h1>Akanksha Raghav</h1>
                     <h3>| Full Stack Web Developer &#128513;|| VUI Developer || Python &#128149; |</h3>
                 </div>

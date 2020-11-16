@@ -41,28 +41,7 @@ function Home() {
         
     ]
 
-    // const preview = [
-    //     {
-    //         title: "HasteUp",
-    //         media: ""
-    //     },
-    //     {
-    //         title: "Coronavirus Live Tracker",
-    //         media: ""
-    //     },
-    //     {
-    //         title: "Verve",
-    //         media: ""
-    //     },
-    //     {
-    //         title: "Graph Search GUI",
-    //         media: ""
-    //     },
-    //     {
-    //         title: "FaceSpace",
-    //         media: ""
-    //     },
-    // ]
+    
     const cardCreated = projects.map(project => (
         <div key={project.title} className="col-sm-4">
             <CardContent project={project} />
