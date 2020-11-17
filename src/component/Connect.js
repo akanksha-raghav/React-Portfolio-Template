@@ -13,7 +13,8 @@ function Connect() {
         <div class="quote">
           <h2><b>
           Want to connect?<br />
-        My inbox is always open!
+        My inbox is always open! <br />
+        Let's Collaborate and Build!
         </b>
             <br />
           </h2>
