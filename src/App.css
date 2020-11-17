@@ -164,7 +164,7 @@ section {
 }
 
 .contact {
-  width: 50%;
+  width: 90%;
   padding: 4vmin;
   padding-top: 2vmin;
   margin-left: 30px;
@@ -238,7 +238,6 @@ section {
 }
 
 .quote {
-  width: 40%;
   height: auto;
   margin-left: auto;
   margin-right: 40px;
