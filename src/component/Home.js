@@ -111,19 +111,19 @@ function Home() {
                         <tbody>
                             <tr>
                                 <td>April 2020</td>
-                                <td>Web Development Lead @ StudentCode-in<br></br>
+                                <td>Web Development Lead @ <a href="https://scodein.tech">StudentCode-in</a><br></br>
                                 I am currently as Web development team lead at StudentCode-in. At STUDENT Code-in we have strived to a system that supports and encourages you with varied quality of experiences offered by expert mentors who are the backbone of this initiative.</td>
                             </tr>
                             <tr>
                                 <td>May 2020</td>
-                                <td>Z Ambassador @ IBM<br></br>
+                                <td>Z Ambassador @<a href="https://zambassador.com/">IBM</a><br></br>
                                 I am working with IBM MTM group to:<br></br>
 1. Build the IBM Z student community.<br></br>
 2. Spread the word about Master and Mainframe (MTM) and other learning opportunities with members of their campus communities.</td>
                             </tr>
                             <tr>
                                 <td>Aug 2020</td>
-                                <td>Learn Student Ambassador @ Microsoft<br></br>
+                                <td>Learn Student Ambassador @ <a href="https://studentambassadors.microsoft.com/en-us">Microsoft</a><br></br>
                                 Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities, 
                                 and develop technical and career skills for the future.</td>
                             </tr>
