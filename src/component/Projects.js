@@ -1,7 +1,6 @@
-import React from 'react'
+import React from 'react';
 import Footer from './Footer';
 import CardContent from './CardContent';
-
 function Home() {
 
     const projects = [
@@ -60,6 +59,23 @@ function Home() {
                     {cardCreated}
                 </div>
             </div>
+            <div className="section-title">
+                <h1>My Blogs</h1>
+                <br />
+                <br />
+                <br />
+                <div id="retainable-rss-embed" 
+                    data-rss="https://medium.com/feed/@akanksharaghav,
+                    https://medium.com/feed/vue-mastery"
+                    data-maxcols="2" 
+                    data-layout="grid" 
+                    data-poststyle="inline" 
+                    data-readmore="Read the rest" 
+                    data-buttonclass="btn btn-primary" 
+                    data-offset="-200"
+                >
+                    </div>
+                    </div>
             <Footer />
         </div>
     )

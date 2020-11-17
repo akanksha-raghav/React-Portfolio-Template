@@ -7,6 +7,7 @@ function Header() {
             <ul style={{ padding: 0, margin: 0 }}>
                 <NavLink to="/" className="w3-button">Home</NavLink>
                 <NavLink to="/projects" className="w3-button">Projects</NavLink>
+                <NavLink to="/connect" className="w3-button">Contact</NavLink>
             </ul>
         </header>
     )

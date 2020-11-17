@@ -7,6 +7,7 @@ import Header from "./component/Header";
 import Projects from "./component/Projects";
 import Home from "./component/Home";
 import Particle from "./component/Particle";
+import Connect from "./component/Connect";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
                 <Switch location={location}>
                   <Route exact path="/" component={Home} />
                   <Route path="/projects" component={Projects} />
+                  <Route path="/connect" component={Connect}/>
                   <Route path="/404" component={NotFoundPage} />
                   <Redirect to="/404" />
                 </Switch>

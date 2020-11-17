@@ -82,7 +82,7 @@ section {
   left: 0;
   right: 0;
   margin-top: 8rem;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   text-align: center;
   justify-content: center;
 }
@@ -106,7 +106,7 @@ section {
 
 .section-title {
   font-family: "Josefin Sans", sans-serif;
-  padding-top: 30px;
+  padding-top: 10px;
   text-align: center;
   color: rgb(61, 55, 55);
 }
@@ -142,7 +142,7 @@ section {
   border: 1px solid #ffffff80;
   border-radius: 50px;
   color: rgb(175, 161, 161);
-  font-size: 18px;
+  font-size: 22px;
   text-transform: uppercase;
   text-decoration: none;
   margin-top: 35px;
@@ -151,6 +151,104 @@ section {
 
 .mynav {
   background-color: rgb(232, 236, 236);
+}
+
+/********** section 5 **************/
+
+.section-5 {
+  padding-top: 10vmin;
+  padding-bottom: 10vmin;
+  background-position: center;
+  background: var(--bggradient);
+  margin: auto;
+}
+
+.contact {
+  width: 50%;
+  padding: 4vmin;
+  padding-top: 2vmin;
+  margin-left: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  float: left;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.contact h2 {
+  color: #666;
+  text-align: center;
+  font-size: 30px;
+}
+.input-field {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+}
+.input-field input,
+.input-field textarea {
+  width: 100%;
+  padding: 5px 0;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #666;
+  font-size: 12px;
+  /* color: whitesmoke; */
+  font-weight: 500;
+  resize: none;
+}
+.input-field label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 3px 0;
+  pointer-events: none;
+  font-size: 12px;
+  color: #666;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.input-field input:focus + label,
+.input-field textarea:focus + label,
+.input-field input:valid + label,
+.input-field textarea:valid + label {
+  top: -25px;
+  font-size: 14px;
+  padding: 2px 5px;
+  background: #ff006a;
+  color: #fff;
+  border-radius: 4px;
+}
+.section-5 .contact .btn {
+  margin-top: 10px;
+  background: #ff006a;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.section-5 .contact .btn:hover {
+  background: #dd2476;
+}
+
+.quote {
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: 40px;
+  padding-top: 10em;
+
+  text-align: center;
+  color: #808080;
+  padding-top: 10em;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .footer {
