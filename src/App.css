@@ -170,7 +170,7 @@ section {
   margin-left: 30px;
   box-sizing: border-box;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  float: left;
+  float: right;
   border-radius: 25px;
   background-color: white;
 }
