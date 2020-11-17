@@ -148,6 +148,9 @@ section {
   margin-top: 35px;
   z-index: 999;
 }
+.section-info a{
+  color: rgb(245, 32, 131);
+}
 
 .mynav {
   background-color: rgb(232, 236, 236);
