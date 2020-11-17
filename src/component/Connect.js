@@ -10,6 +10,18 @@ function Connect() {
         <Container>
                     <Row xs={6} md={10}>
                     <Col sm={6}>
+        <div class="quote">
+          <h2><b>
+          Want to connect?<br />
+        My inbox is always open!
+        </b>
+            <br />
+          </h2>
+          <br />
+          <br />
+        </div>
+        </Col>
+        <Col sm={6}>
         <div class="contact">
           <div class="form-container">
             <h2>Contact Me</h2>
@@ -31,20 +43,6 @@ function Connect() {
               <input type="submit" name="" value="Send Message" class="btn" />
             </form>
           </div>
-        </div>
-        </Col>
-        <Col sm={6}>
-        <div class="quote">
-          <h2><b>
-          Want to connect?<br />
-        My inbox is always open!
-        </b>
-            <br />
-          </h2>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
         </div>
         </Col>
         </Row>

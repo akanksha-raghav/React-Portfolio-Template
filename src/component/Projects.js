@@ -63,7 +63,9 @@ function Home() {
                 <h1>My Blogs</h1>
                 <br />
                 <br />
-                <br />
+                </div>
+                <div className="container">
+                <div className="row" style={{ justifyContent: "center" }}>
                 <div id="retainable-rss-embed" 
                     data-rss="https://medium.com/feed/@akanksharaghav,
                     https://medium.com/feed/vue-mastery"
@@ -74,6 +76,7 @@ function Home() {
                     data-buttonclass="btn btn-primary" 
                     data-offset="-200"
                 >
+                    </div>
                     </div>
                     </div>
             <Footer />
