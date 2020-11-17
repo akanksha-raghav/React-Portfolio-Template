@@ -101,7 +101,7 @@ function Home() {
                     <h1><u>Experience/Volunteer</u></h1>
                 </div>
                 <div className="section-info">
-                    <table className="table table-hover" style={{ color: "#13263E", textAlign: "center" }}>
+                    <table className="table table-hover" style={{ color: "#13263E", textAlign: "center", fontSize: "20px" }}>
                         <thead>
                             <tr>
                                 <th scope="col">Duration</th>
