@@ -8,6 +8,7 @@ function Header() {
                 <NavLink to="/" className="w3-button">Home</NavLink>
                 <NavLink to="/projects" className="w3-button">Projects</NavLink>
                 <NavLink to="/connect" className="w3-button">Contact</NavLink>
+                <NavLink to="https://drive.google.com/file/d/1tgU7-T6NMSpDnHsBAWjJWwbk_xBY-x0K/view?usp=sharing" className="w3-button">Resume</NavLink>
             </ul>
         </header>
     )
